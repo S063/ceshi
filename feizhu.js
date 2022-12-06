@@ -2,7 +2,7 @@
 [rewrite_local]
 ^http[s]?:\/\/xrckeji\/.com\/itally\/app\/user\/query\/.+$ url script-response-body xrckeji.js
 [mitm] 
-hostname = xrckeji.com
+hostname = *.xrckeji.*
 *******************************
 *******************************/
 var obj = JSON.parse($response.body);
