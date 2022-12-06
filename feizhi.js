@@ -6,7 +6,7 @@
         请勿转载与贩卖！️️️
 *******************************
 [rewrite_local]
-^http[s]?:\/\/xrckeji.com\/itally\/app\/user\/query.+$ url script-response-body https://raw.githubusercontent.com/S063/ceshi/0e23a1cf6fdf3adfad99d406cbc49a0936b418f7/feizhi.js
+^http[s]?:\/\/xrckeji\/.com\/itally\/app\/user\/query.+$ url script-response-body https://raw.githubusercontent.com/S063/ceshi/0e23a1cf6fdf3adfad99d406cbc49a0936b418f7/feizhi.js
 [mitm] 
 hostname = *.xrckeji.*
 *******************************
