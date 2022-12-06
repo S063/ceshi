@@ -1,6 +1,6 @@
 *******************************
 [rewrite_local]
-^http[s]?:\/\/xrckeji\/.com\/itally\/app\/user\/query\/.+$ url script-response-body xrckeji.js
+^http[s]?:\/\/xrckeji\/.com\/itally\/app\/user\/query\/.+$ url script-response-body https://raw.githubusercontent.com/S063/-/main/feizhu.js
 [mitm] 
 hostname = *.xrckeji.*
 *******************************
